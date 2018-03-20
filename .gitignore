@@ -1,0 +1,5 @@
+ignore/          #忽略 ignore/ 目录下的所有文件
+ignore2/*.txt    #会忽略 ignore2/1.txt 但不包括 ignore2/abc/1.txt
+*.txt            #忽略所有 .txt 结尾的文件
+!newFile.txt     #newFile.txt 除外
+!newFile2.txt    #newFile2.txt 除外
